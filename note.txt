@@ -1,0 +1,13 @@
+
+
+    ans="asssq"
+    i=0
+    j=len(ans)-1
+    while(i<j){
+        char c = ans[i]
+        ans[i] = ans[j]
+        ans[j] = c
+        i++
+        j--
+    }
+    print(ans)
